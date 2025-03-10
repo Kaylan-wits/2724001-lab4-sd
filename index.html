@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Country info Generator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+
+    <body>
+        <h1> Generate A Countries Information</h1>
+
+        <input type="text" id="Countryname" placeholder="Enter Country Name">
+
+        <button onclick ="FetchCountry()"> Generate</button>
+
+        <section id="country-info">
+            <h2>Country Information</h2>
+            <p id="Capital"><strong>Capital:</strong></p>
+            <p id="Population"><strong>Population:</strong></p>
+            <p id="Region"><strong>Region:</strong></p>
+            <p id="Flag"><strong>Flag:</strong> <br> 
+                
+            <img id="flag" src="" alt="" width="100"></p>
+        </section>
+        
+
+        <section id="bordering-countries">
+            <h2>Bodering Countries:</h2>
+            <ul id="border-list"></ul>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
